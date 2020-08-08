@@ -25,10 +25,15 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  server: {
+    port: 3000, // デフォルト: 3000
+    host: '192.168.0.50' // デフォルト: localhost
+  },
   /*
   ** Global CSS
   */
   css: [
+    'normalize.css'
   ],
   /*
   ** Plugins to load before mounting the App
