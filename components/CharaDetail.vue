@@ -41,8 +41,12 @@ export default {
   display: grid;
   grid-column: 1 / -1;
 }
+.chara h3 {
+  margin: 0;
+  white-space: nowrap;
+}
 .chara img {
-  height: 100px;
+  height: 100%;
   width: auto;
 }
 .chara div {
