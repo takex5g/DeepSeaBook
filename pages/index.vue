@@ -16,6 +16,19 @@
         <template #name>メンダコ</template>
         <template #desc>こんにちは深海魚うぇいうぇい</template>
       </CharaDetail>
+
+      <Chara name="mendako" style="grid-row: 8 / span 1; grid-column: 1 /span 1;">
+        <template #name>メンダコ</template>
+      </Chara>
+      <Chara name="mendako" style="grid-row: 9 / span 1; grid-column: 3 /span 1;">
+        <template #name>メンダコ</template>
+      </Chara>
+      <Chara name="mendako" style="grid-row: 10 / span 1; grid-column: 5 /span 1;">
+        <template #name>メンダコ</template>
+      </Chara>
+      <Chara name="mendako" style="grid-row: 11 / span 1; grid-column: -2 /span 1;">
+        <template #name>メンダコ</template>
+      </Chara>
     </div>
   </div>
 </template>
@@ -23,8 +36,9 @@
 <script>
 import Background from "@/components/Background";
 import CharaDetail from "@/components/CharaDetail";
+import Chara from "@/components/Chara";
 export default {
-  components: { Background, CharaDetail },
+  components: { Background, CharaDetail, Chara },
   data: function () {
     return {
       scrollY: 0,
