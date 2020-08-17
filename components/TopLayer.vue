@@ -23,14 +23,18 @@ export default {
   methods: {},
   computed: {
     suisin() {
+      //深さの増加具合をコントロール
       let tmp = Math.floor(this.scrollY / 10);
       let tmp2 = Math.floor((tmp - 800) * 4) + 800;
       let tmp3 = Math.floor((tmp2 - 1000) / 3) + 1000;
       if (tmp <= 800) {
+        //800m地点まで
         return tmp;
       } else if (tmp2 < 1000) {
+        //1000m地点まで
         return tmp2;
       } else if (tmp3 < 2000) {
+        //2000m地点まで
         return tmp3;
       }
     },

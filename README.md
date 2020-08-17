@@ -1,4 +1,5 @@
 # DeepSeaBook
+**Nuxt.js深海図鑑**
 
 ## Build Setup
 

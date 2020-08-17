@@ -1,7 +1,16 @@
 # COMPONENTS
 
-**This directory is not required, you can delete it if you don't want to use it.**
+## Chara.vue
+魚の名前だけのコンポーネント
 
-The components directory contains your Vue.js Components.
+## CharaDetail.vue
+説明付き
 
-_Nuxt.js doesn't supercharge these components._
+## Toplayer.vue
+一番上のレイヤー。水深を表示
+
+## CharaParallax.vue
+Chara.vueにパララックス視覚効果を追加したコンポーネント
+
+## BackGround.vue
+泡の背景
