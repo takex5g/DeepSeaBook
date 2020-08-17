@@ -31,14 +31,16 @@ export default {
   max-width: 100%;
   max-height: 100%;
   display: grid;
+  grid-template-rows: auto auto;
 }
 .chara img {
-  height: auto;
-  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
 }
 .chara h3 {
   /*回り込み説明文付き */
   text-align: center;
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
 </style>

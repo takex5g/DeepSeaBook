@@ -38,7 +38,6 @@ export default {
 .chara {
   max-width: 100%;
   max-height: 100%;
-  display: grid;
   grid-column: 1 / -1;
 }
 .chara h3 {
@@ -46,23 +45,32 @@ export default {
   white-space: nowrap;
 }
 .chara img {
-  height: 100%;
-  width: auto;
+  max-width: 100%;
+  max-height: 100%;
 }
 .chara div {
   /*回り込み説明文付き */
   text-align: left;
+  padding: 0 30px;
+}
+@media (max-width: 480px) {
+  /**スマホの時説明文の余白を消す */
+  .chara div {
+    padding: 0 0px;
+  }
 }
 
 /**全体ボックスの設定 */
 .left {
   /*回り込み説明文付き */
+  display: grid;
   grid-template-columns: auto 1fr;
 }
 .center {
   /* grid-template-columns: 1fr auto; */
 }
 .right {
+  display: grid;
   grid-template-columns: 1fr auto;
 }
 /*ここまで*/
